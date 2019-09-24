@@ -10,12 +10,23 @@
     box-sizing: border-box;
     padding-left: 110px;
     margin-top: -500px;
-    width: 500px;
+
     
 }
+#titre{
+    overflow: visible;
+    font-size: 1.7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+}
 
-#image{
+.image{
     float: right;
     border: solid 1px black;
     box-sizing: border-box;
+}
+
+.entete{
+    background-color: lightgrey;
+    padding: 0;
 }
